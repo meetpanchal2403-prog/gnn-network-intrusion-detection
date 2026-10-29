@@ -1,0 +1,29 @@
+﻿project:
+  name: "Multimodal Graph Neural Network for Network Intrusion Detection"
+  window_minutes: 5
+
+data:
+  processed_dir: "G:/My Drive/nids-capstone/data/ait/processed"
+  scenarios:
+    - fox
+    - harrison
+    - russellmitchell
+    - santos
+    - wardbeck
+    - wheeler
+    - wilson
+  excluded_scenario: shaw
+
+evaluation:
+  protocol: "leave-one-scenario-out"
+  seeds: [0, 1, 2]
+  test_fold_files: "loso_fold_test-{scenario}_w5m.pkl"
+
+# Update these settings only after verifying the original training code.
+model:
+  name: "multimodal_edge_scratch"
+  pretraining: "verify against original implementation"
+
+reproducibility:
+  preserve_existing_artifacts: true
+  fit_preprocessing_on_training_data_only: "audit required"

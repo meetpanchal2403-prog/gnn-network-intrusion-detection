@@ -1,0 +1,12 @@
+﻿numpy
+pandas
+scikit-learn
+networkx
+matplotlib
+seaborn
+PyYAML
+optuna
+xgboost
+torch
+torch-geometric
+sentence-transformers

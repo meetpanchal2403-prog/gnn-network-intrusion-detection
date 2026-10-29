@@ -1,0 +1,149 @@
+{
+  "fox": {
+    "test_scenario": "fox",
+    "validation_scenario": "harrison",
+    "train_scenarios": [
+      "russellmitchell",
+      "santos",
+      "wardbeck",
+      "wheeler",
+      "wilson"
+    ],
+    "window_minutes": 5,
+    "source_file": "loso_fold_test-fox_w5m.pkl",
+    "structural_checks": {
+      "filename_matches_test": true,
+      "test_not_in_train": true,
+      "test_not_validation": true,
+      "train_unique": true,
+      "scenario_keys_match_assignments": true,
+      "train_validation_test_disjoint": true
+    }
+  },
+  "harrison": {
+    "test_scenario": "harrison",
+    "validation_scenario": "russellmitchell",
+    "train_scenarios": [
+      "fox",
+      "santos",
+      "wardbeck",
+      "wheeler",
+      "wilson"
+    ],
+    "window_minutes": 5,
+    "source_file": "loso_fold_test-harrison_w5m.pkl",
+    "structural_checks": {
+      "filename_matches_test": true,
+      "test_not_in_train": true,
+      "test_not_validation": true,
+      "train_unique": true,
+      "scenario_keys_match_assignments": true,
+      "train_validation_test_disjoint": true
+    }
+  },
+  "russellmitchell": {
+    "test_scenario": "russellmitchell",
+    "validation_scenario": "santos",
+    "train_scenarios": [
+      "fox",
+      "harrison",
+      "wardbeck",
+      "wheeler",
+      "wilson"
+    ],
+    "window_minutes": 5,
+    "source_file": "loso_fold_test-russellmitchell_w5m.pkl",
+    "structural_checks": {
+      "filename_matches_test": true,
+      "test_not_in_train": true,
+      "test_not_validation": true,
+      "train_unique": true,
+      "scenario_keys_match_assignments": true,
+      "train_validation_test_disjoint": true
+    }
+  },
+  "santos": {
+    "test_scenario": "santos",
+    "validation_scenario": "wardbeck",
+    "train_scenarios": [
+      "fox",
+      "harrison",
+      "russellmitchell",
+      "wheeler",
+      "wilson"
+    ],
+    "window_minutes": 5,
+    "source_file": "loso_fold_test-santos_w5m.pkl",
+    "structural_checks": {
+      "filename_matches_test": true,
+      "test_not_in_train": true,
+      "test_not_validation": true,
+      "train_unique": true,
+      "scenario_keys_match_assignments": true,
+      "train_validation_test_disjoint": true
+    }
+  },
+  "wardbeck": {
+    "test_scenario": "wardbeck",
+    "validation_scenario": "wheeler",
+    "train_scenarios": [
+      "fox",
+      "harrison",
+      "russellmitchell",
+      "santos",
+      "wilson"
+    ],
+    "window_minutes": 5,
+    "source_file": "loso_fold_test-wardbeck_w5m.pkl",
+    "structural_checks": {
+      "filename_matches_test": true,
+      "test_not_in_train": true,
+      "test_not_validation": true,
+      "train_unique": true,
+      "scenario_keys_match_assignments": true,
+      "train_validation_test_disjoint": true
+    }
+  },
+  "wheeler": {
+    "test_scenario": "wheeler",
+    "validation_scenario": "wilson",
+    "train_scenarios": [
+      "fox",
+      "harrison",
+      "russellmitchell",
+      "santos",
+      "wardbeck"
+    ],
+    "window_minutes": 5,
+    "source_file": "loso_fold_test-wheeler_w5m.pkl",
+    "structural_checks": {
+      "filename_matches_test": true,
+      "test_not_in_train": true,
+      "test_not_validation": true,
+      "train_unique": true,
+      "scenario_keys_match_assignments": true,
+      "train_validation_test_disjoint": true
+    }
+  },
+  "wilson": {
+    "test_scenario": "wilson",
+    "validation_scenario": "fox",
+    "train_scenarios": [
+      "harrison",
+      "russellmitchell",
+      "santos",
+      "wardbeck",
+      "wheeler"
+    ],
+    "window_minutes": 5,
+    "source_file": "loso_fold_test-wilson_w5m.pkl",
+    "structural_checks": {
+      "filename_matches_test": true,
+      "test_not_in_train": true,
+      "test_not_validation": true,
+      "train_unique": true,
+      "scenario_keys_match_assignments": true,
+      "train_validation_test_disjoint": true
+    }
+  }
+}

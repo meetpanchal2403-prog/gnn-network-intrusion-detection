@@ -1,0 +1,8 @@
+{
+  "fold_files_found": 7,
+  "folds_inspected": 7,
+  "all_seven_unique_test_scenarios": true,
+  "all_fold_checks_pass": true,
+  "errors": 0,
+  "note": "Structural checks only; preprocessing leakage is not assessed."
+}

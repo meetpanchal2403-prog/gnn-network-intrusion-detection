@@ -1,0 +1,35 @@
+﻿# Data and experiment artifacts
+data/
+*.pkl
+*.pickle
+*.parquet
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Experiment outputs (keep curated results in results/)
+runs/
+wandb/
+lightning_logs/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local audit backups
+analysis/full_capstone_before_period_fix.ipynb
