@@ -1,9 +1,11 @@
-﻿project:
+project:
   name: "Multimodal Graph Neural Network for Network Intrusion Detection"
   window_minutes: 5
 
 data:
-  processed_dir: "G:/My Drive/nids-capstone/data/ait/processed"
+  # Place the processed AIT data under this directory, relative to the repository root.
+  # The data itself is not tracked by Git.
+  processed_dir: "data/ait/processed"
   scenarios:
     - fox
     - harrison
