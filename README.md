@@ -64,6 +64,7 @@ clean-clone reproduction still need verification.
 ├── configs/
 │   └── config.yaml
 ├── docs/
+│   ├── environment.md
 │   ├── fold_validation_summary.json
 │   ├── loso_fold_assignments.json
 │   ├── model_pipeline_audit.md
@@ -72,6 +73,9 @@ clean-clone reproduction still need verification.
 ├── results/
 │   └── tables/
 ├── .gitignore
+├── .zenodo.json
+├── CITATION.cff
+├── LICENSE
 ├── audit_model_pipeline.py
 ├── audit_notebook.py
 ├── audit_saved_predictions.py
