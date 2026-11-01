@@ -3,7 +3,11 @@ message: "If you use this software in your research, please cite it using the me
 title: "Multimodal GNN-Based Network Intrusion Detection"
 authors:
   - family-names: Panchal
-    given-names: "Meet Mehul"
+    given-names: Meet
+  - family-names: Singhvi
+    given-names: Kashish
+  - family-names: Vyas
+    given-names: Yash
 type: software
 repository-code: "https://github.com/meetpanchal2403-prog/gnn-network-intrusion-detection"
 license: MIT
