@@ -1,4 +1,7 @@
-﻿numpy
+# Core scientific Python dependencies.
+# Versions are intentionally not pinned: this repository does not yet have a
+# verified, clean-clone environment lockfile.
+numpy
 pandas
 scikit-learn
 networkx
@@ -7,6 +10,8 @@ seaborn
 PyYAML
 optuna
 xgboost
-torch
-torch-geometric
 sentence-transformers
+
+# Install PyTorch and PyTorch Geometric using the instructions appropriate
+# for your operating system, Python version, and CPU/CUDA build.
+# See docs/environment.md before installing these packages.
