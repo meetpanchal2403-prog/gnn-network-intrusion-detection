@@ -1,5 +1,9 @@
 # Multimodal GNN-Based Network Intrusion Detection
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23859479.svg)](https://doi.org/10.5281/zenodo.23859479)
+
+**Archived release:** [v1.0.0](https://doi.org/10.5281/zenodo.23859480) · **Concept DOI (all versions):** [10.5281/zenodo.23859479](https://doi.org/10.5281/zenodo.23859479)
+
 Research implementation for host-level, temporally windowed graph-based
 network intrusion detection using network-flow and system-log features.
 
