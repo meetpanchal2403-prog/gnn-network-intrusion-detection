@@ -50,9 +50,10 @@ Use a compatible Python environment. Install the listed dependencies with:
 pip install -r requirements.txt
 ```
 
-PyTorch and PyTorch Geometric may require platform-specific installation
-steps. Exact dependency versions and clean-clone reproduction still need
-verification against the original working environment.
+See [`docs/environment.md`](docs/environment.md) for installation guidance and
+recorded environment observations. PyTorch and PyTorch Geometric require
+platform-specific installation steps. Exact dependency versions and
+clean-clone reproduction still need verification.
 
 ## Repository contents
 
@@ -84,6 +85,10 @@ verification against the original working environment.
 This tree describes the files currently tracked in the repository; it does
 not imply that the full training pipeline or all required datasets are
 included.
+
+## Citing this work
+
+Citation metadata is provided in [`CITATION.cff`](CITATION.cff). Once a version is archived on Zenodo, cite the DOI for the exact archived release.
 
 ## Results and reproducibility
 
