@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it using the metadata below."
+title: "Multimodal GNN-Based Network Intrusion Detection"
+authors:
+  - family-names: Panchal
+    given-names: "Meet Mehul"
+type: software
+repository-code: "https://github.com/meetpanchal2403-prog/gnn-network-intrusion-detection"
+license: MIT
