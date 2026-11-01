@@ -1,0 +1,26 @@
+{
+  "title": "Multimodal GNN-Based Network Intrusion Detection",
+  "upload_type": "software",
+  "description": "Research implementation for host-level, temporally windowed graph-based network intrusion detection using network-flow and system-log features.\n\nThe current evaluation artifacts cover seven scenarios (fox, harrison, russellmitchell, santos, wardbeck, wheeler, and wilson) using a leave-one-scenario-out protocol, five-minute windows, and three model seeds in the primary prediction artifact. The multimodal approach uses flow features, system-log features, and log-message embeddings. The shaw scenario is excluded from the current seven-fold artifacts.\n\nThe repository includes the research notebook, configuration, audit scripts, audit reports, and curated result tables. Large datasets, processed data, pickle files, and model checkpoints are not included and must be obtained separately subject to their access and licensing terms.\n\nReproducibility limitation: a clean-clone reproduction of the complete pipeline has not yet been established. Fold assignments and scaler checks have been inspected, but this does not establish that all preprocessing or feature-leakage risks have been eliminated. Period-classification corrected metrics are audit outputs; no model retraining was performed as part of that correction. Consult the README and audit documentation before interpreting the results.",
+  "creators": [
+    {
+      "name": "Panchal, Meet"
+    },
+    {
+      "name": "Singhvi, Kashish"
+    },
+    {
+      "name": "Vyas, Yash"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "network intrusion detection",
+    "graph neural networks",
+    "multimodal learning",
+    "network flows",
+    "system logs",
+    "leave-one-scenario-out evaluation",
+    "cybersecurity"
+  ]
+}
